@@ -1,0 +1,72 @@
+html{
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(81, 79, 79, 0.5)), url("resumebackground.jpg");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire element */
+    background-position: center; /* Centers the image */
+}
+body{
+  
+  text-align: center;
+}
+.Headers {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between each button. */
+    width: 100%;
+}
+.Headers a:link, .Headers a:visited{
+  background-color: rgb(176, 25, 25);
+  color: white;
+  padding:  10px;
+  width:200%;
+  max-width: 200%;  /* allows the width to not go past 200%*/
+  text-align: center;
+  text-decoration: none; /* no decoration for the text*/
+  display: inline-block; /* allows this to be a block rather than just a link */
+  align-items: center; /* Both this and the next line centers everything */
+  justify-content: center; 
+  
+}
+.Headers a{
+  background-color: rgb(176, 25, 25);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none; /* no decoration for the text */
+    text-align: center;
+    display: inline-block; /* allows this to be a block rather than just a link */
+    border-radius: 4px; /* gives rounded corners*/
+    align-items: center; 
+
+}
+
+.Headers a:hover{
+  color: rgb(176, 25, 25); /* Change text color when you hover over it */
+  text-decoration: underline; /* Creates an underline on the header.*/
+  
+  background-color: white; /* Makes the button white*/
+  text-align: center;
+}
+
+.Title{
+  text-align:center;
+  font-size: 60px;
+  color: rgb(209, 209, 94);
+  
+}
+
+.WorkTitle, .WorkTitleSecond, .WorkTitleThird, .WorkTitleFourth{
+  text-align: center;
+  font-size: 40px;
+  color:rgb(44, 201, 115);
+  margin: 0 auto; /* horizontally centers it */
+}
+
+.section1 a:link, .section1 a:visited, .section2 a:link, .section2 a:visited{
+  color: white;
+  font-size: 20px;
+}
+
+.section1 a:hover, .section2 a:hover{
+  color: rgb(44, 201, 115);
+}
